@@ -11,15 +11,20 @@ function NavBar() {
 function Home() {
   return (
     <>
-    <div id="home">
-      <h1>Home</h1>
-    </div>
-    <div id="about">
-      {<h1 >about</h1>}
-    </div>
+     <div id="home">
+       <h1>Home</h1>
+     </div>
+     <div id="about">
+       {<h2 >about</h2>}
+     </div>
     </>
+
+
   );
 }
+
+    
+  
 
 function App() {
   return (
